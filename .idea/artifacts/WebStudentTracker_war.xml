@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebStudentTracker:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WebStudentTracker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WebStudentTracker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WebStudentTracker:war exploded" />
+    </root>
+  </artifact>
+</component>

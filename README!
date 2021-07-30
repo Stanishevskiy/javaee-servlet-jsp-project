@@ -1,0 +1,8 @@
+1. Install MySQL Workbench. Check installing MySQL Server, if not exists instal via configurator.
+2. Execute sql-script:
+    01-create-user
+    02-student-tracker
+3. Add all dependencies (Servlet, JSTL, MySQL JDBC).
+4. Add MySQL Database in IntelliJ IDEA
+5. Define connection pool. In web/META-INF/context.xml.
+IMPORTANT: ApacheTomcat and context.xml correct work with JDK 8.
